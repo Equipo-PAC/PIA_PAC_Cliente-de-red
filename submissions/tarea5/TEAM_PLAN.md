@@ -1,5 +1,5 @@
 # Tarea 5 — Primer avance PIA — Equipo RedMinima
-
+---
 ## Resumen del Proyecto
 Desarrollo de un cliente y servidor de red mínimo en C++ que se comuniquen mediante peticiones HTTP GET. El objetivo es crear una herramienta educativa para entender protocolos de red y programación de sockets de forma segura y controlada en entornos aislados.
 
@@ -85,5 +85,3 @@ Desarrollo de un cliente y servidor de red mínimo en C++ que se comuniquen medi
 **Tag**: tarea5-inicio  
 **Mensaje**: "Tarea5: inicio PIA — Diego Aguayo, Valeria Navarro, Ashley Rios, Luis Rodriguez"
 
----
-*Documento creado para el Primer Avance del PIA - Equipo RedMinima*
