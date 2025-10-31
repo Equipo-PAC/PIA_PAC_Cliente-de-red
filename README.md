@@ -15,3 +15,10 @@ Desarrollar un cliente y servidor de red educativo en C++ que se comuniquen medi
 ```bash
 git clone [URL_DEL_REPOSITORIO]
 cd PIA_PAC_Cliente-de-red
+
+```
+### Integrantes
+- Diego Aguayo Frías
+- Valeria Abigail Navarro Casarez
+- Ashley Karina Rios Rodríguez
+- Luis Cipriano Rodríguez Gonzalez
