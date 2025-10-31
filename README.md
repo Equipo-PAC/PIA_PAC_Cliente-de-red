@@ -1,4 +1,4 @@
-# PIA - Cliente y Servidor de Red Minimo
+# PIA - Cliente y Servidor de Red Minimo 
 
 ## Objetivo General
 Desarrollar un cliente y servidor de red educativo en C++ que se comuniquen mediante peticiones HTTP GET, diseñado para aprendizaje de protocolos de red y programación de sockets en entornos controlados.
