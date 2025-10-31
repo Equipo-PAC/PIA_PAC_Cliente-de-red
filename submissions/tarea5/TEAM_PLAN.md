@@ -83,5 +83,5 @@ Desarrollo de un cliente y servidor de red mínimo en C++ que se comuniquen medi
 ## Commit/Tag Inicial
 **Hash del commit**: [AQUÍ_VA_EL_HASH_DEL_COMMIT_INICIAL]  
 **Tag**: tarea5-inicio  
-**Mensaje**: "Tarea5: inicio PIA — Diego Aguayo, Valeria Navarro, Ashley Rios, Luis Rodriguez"
+**Mensaje**: "Tarea5: inicio PIA — Diego Aguayo, Valeria Navarro, Ashley Rios, Luis Rodriguez" 
 
