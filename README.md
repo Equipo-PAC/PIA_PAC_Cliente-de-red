@@ -1,2 +1,17 @@
-# PIA_PAC_Cliente-de-red
-PIA de programación avanzada para ciberseguridad, cliente de red mínimo. 
+# PIA - Cliente y Servidor de Red Minimo
+
+## Objetivo General
+Desarrollar un cliente y servidor de red educativo en C++ que se comuniquen mediante peticiones HTTP GET, diseñado para aprendizaje de protocolos de red y programación de sockets en entornos controlados.
+
+## Plataforma Objetivo
+- **Sistema Operativo**: Linux
+- **Arquitectura**: x86_64
+- **Estándar C++**: C++11 
+- **Entorno**: Maquinas virtuales aisladas (wntorno controlado)
+
+## Instalación y Ejecución
+
+### Clonar el Repositorio
+```bash
+git clone [URL_DEL_REPOSITORIO]
+cd PIA_PAC_Cliente-de-red
