@@ -1,7 +1,7 @@
 # Registro de Cambios - PIA 
 
 ## [Inicio] - [31/10/2025]
-
+ 
 ### Inicio del PIA — Tarea5 — [Diego Aguayo, Valeria Navarro, Ashley Rios, Luis Rodriguez]
 
 **Cambios realizados:**
