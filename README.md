@@ -13,7 +13,7 @@ Desarrollar un cliente y servidor de red educativo en C++ que se comuniquen medi
 
 ### Clonar el Repositorio
 ```bash
-git clone [URL_DEL_REPOSITORIO]
+git clone [https://github.com/Equipo-PAC/PIA_PAC_Cliente-de-red]
 cd PIA_PAC_Cliente-de-red
 
 ```
