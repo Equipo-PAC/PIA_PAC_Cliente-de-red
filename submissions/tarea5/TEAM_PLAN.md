@@ -47,13 +47,13 @@ Desarrollo de un cliente y servidor de red mínimo en C++ que se comuniquen medi
 - **Manejo-de-errores.cpp/.h**: Gestión de errores
 - **Peticion-Respuesta.cpp/.h**: HTTP GET y respuestas
 
-### Valeria Navarro: Servidor  
+### Ashley Rios: Servidor  
 - **Servidor.cpp/.h**: Main del servidor
 - **Conexion-serv.cpp/.h**: Conexiones entrantes
 - **Peticiones.cpp/.h**: Procesamiento HTTP
 - **Respuestas.cpp/.h**: Generación respuestas
 
-### Ashley Rios: Compilación
+### Valeria Navarro: Compilación
 - **Makefile**: Sistema de compilación
 - **Estructura**: Organización /src, /bin, /docs
 - **Versiones**: Debug con símbolos y release
