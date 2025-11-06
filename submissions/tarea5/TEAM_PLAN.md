@@ -47,11 +47,9 @@ Desarrollo de un cliente y servidor de red mínimo en C++ que se comuniquen medi
 - **Manejo-de-errores.cpp/.h**: Gestión de errores
 - **Peticion-Respuesta.cpp/.h**: HTTP GET y respuestas
 
-### Diego Aguayo: Servidor  
-- **Servidor.cpp/.h**: Main del servidor
-- **Conexion-serv.cpp/.h**: Conexiones entrantes
-- **Peticiones.cpp/.h**: Procesamiento HTTP
-- **Respuestas.cpp/.h**: Generación respuestas
+### Diego Aguayo: Servidor 
+- **Servidor.py**: Servidor minimo en python
+- **Pruebas**: Ejecución y ayuda con la documentación
 
 ### Valeria Navarro: Compilación
 - **Makefile**: Sistema de compilación
@@ -62,7 +60,6 @@ Desarrollo de un cliente y servidor de red mínimo en C++ que se comuniquen medi
 ### Luis Rodriguez: Documentación
 - **Utils/Logs.cpp/.h**: Registro de actividades
 - **Documentación**: Códigos y procedimientos
-- **Pruebas**: Ejecución y documentación
 - **Archivos comunes**: Utilidades compartidas
 
 ## Medidas Éticas y de Seguridad
