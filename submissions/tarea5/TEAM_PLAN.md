@@ -41,13 +41,13 @@ Desarrollo de un cliente y servidor de red mínimo en C++ que se comuniquen medi
 
 ## Distribución de Tareas
 
-### Diego Aguayo: Cliente
+### Ashley Rios: Cliente
 - **Cliente.cpp/.h**: Main del cliente y parámetros
 - **Conexion-cli.cpp/.h**: Sockets TCP
 - **Manejo-de-errores.cpp/.h**: Gestión de errores
 - **Peticion-Respuesta.cpp/.h**: HTTP GET y respuestas
 
-### Ashley Rios: Servidor  
+### Diego Aguayo: Servidor  
 - **Servidor.cpp/.h**: Main del servidor
 - **Conexion-serv.cpp/.h**: Conexiones entrantes
 - **Peticiones.cpp/.h**: Procesamiento HTTP
