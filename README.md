@@ -1,4 +1,10 @@
 # PIA - Cliente y Servidor de Red Minimo 
+---
+## Integrantes
+- Diego Aguayo Frías
+- Valeria Abigail Navarro Casarez
+- Ashley Karina Rios Rodríguez
+- Luis Cipriano Rodríguez Gonzalez
 
 ## Objetivo General
 Desarrollar un cliente y servidor de red educativo en C++ que se comuniquen mediante peticiones HTTP GET, diseñado para aprendizaje de protocolos de red y programación de sockets en entornos controlados.
@@ -15,37 +21,28 @@ Desarrollar un cliente y servidor de red educativo en C++ que se comuniquen medi
 ```bash
 git clone [https://github.com/Equipo-PAC/PIA_PAC_Cliente-de-red]
 cd PIA_PAC_Cliente-de-red
-
 ```
 
-### Integrantes
-- Diego Aguayo Frías
-- Valeria Abigail Navarro Casarez
-- Ashley Karina Rios Rodríguez
-- Luis Cipriano Rodríguez Gonzalez
-
-
+---
 ##  Compilación del cliente y ejecución del servidor
-
-## Instrucciones de compilación 
 ---
-### Compilar Cliente 
+### **Compilar Cliente** 
 ---
-### Requisitos 
+#### Requisitos 
 - **Sistema operativo**: Linux 
 - **Compilador**: g++ (versión 7 o superior)
 - **Estándar C++**: C++11 o superior
  
 
-### Instalación de Dependencias
+#### Instalación de Dependencias
 
-#### En Ubuntu (lubuntu)/Debian:
+##### En Ubuntu (lubuntu)/Debian:
 ```bash
 sudo apt update
 sudo apt install g++
 sudo apt install g++ make
 ```
-### Compilar con Makefile
+#### Compilar con Makefile
 - Tienes que dirigirte a la carpeta donde hayas descargado el Cliente (para este ejemplo y los siguientes usaremos la carpeta de este repositorio src/):
 ```bash
 cd src/
@@ -55,7 +52,7 @@ cd src/
 make 
 ```
 
-### Compilar sin el makefile
+#### Compilar sin el makefile
 
 - Dirigete a la carpeta src/
 ```bash
@@ -66,20 +63,20 @@ cd src/
 g++ -std=c++11 -g -o cliente Cliente.cpp Conexion.cpp Manejo-Errores.cpp
 ```
 
-### Ejecutar Servidor
+### **Ejecutar Servidor**
 ---
-### Requisitos 
+#### Requisitos 
 
 - **Sistema operativo**: Linux o Windows 10/11  (se hicieron las pruebas en windows 10 y 11, asi como en Lubuntu/Ubuntu)
 - **Version Pytnon**: 3.6 o superior
 - **RED**: Tanto el cliente como el servidor deben estar en la misma red
 
-### Verificacion de la instalacion de Python
+#### Verificacion de la instalacion de Python
 - Debe de ser una version 3.6 o superior
 ```bash
 python3 --version
 ```
-### Ejecutar
+#### Ejecutar
 - En la raiz del proyecto puedes hacer lo siguiente:
 ```bash
 python3 src/Servidor-Prueba.py
