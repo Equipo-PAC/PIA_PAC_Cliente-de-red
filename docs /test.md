@@ -29,7 +29,7 @@ Ingresa la IP del servidor: 192.168.0.25
 Ingresa el puerto (si presiona enter sin haber ingresado un puerto, el puerto por defecto sera el 8080): 8080
 ```
 ##### Evidencia (Captura de pantalla de la compilacion)
-
+En evidence.md en el apartado *Compilacion de cliente en MV Lubuntu* esta la captura con la evidencia de la compilacion.
 
 ### - ***Debian***:
 Se utilizo para hacer pruebas con el cliente y el servidor.
@@ -110,7 +110,7 @@ Ingresa la IP del servidor (por ejemplo: 192.168.1.100) Si  presiona 'enter' ace
 Ingresa el puerto (debe estar entre 1024-65535), si presiona enter el puerto por defecto sera el 8080 : 1024
 ```
 ##### Evidencia (Captura de pantalla de la ejecucion)
-
+En evidence.md en el apartado *Ejecucion del servidor en MV Windows 11* esta la captura con la evidencia de la ejecucion.
 
 
 ##### SE USARON IP'S FICTICIAS EN ESTOS EJEMPLOS, TAMBIEN SE CAMBIARON DATOS DE LAS RUTAS PARA HACERLO ANONIMO
