@@ -15,9 +15,23 @@
 ### Segundo avance del PIA - Tarea 6 - [Diego Aguayo, Valeria Navarro, Ashley Rios, Luis Rodriguez]
 
 **Cambion realizados:**
-- En src se subieron los archivos: Cliente.cpp, Conexion.cpp, Conexion.h, Manejo-Errores.cpp, Manejo-Errores.h, Makefile, Servidor-Prueba.py
-- En test y evidence: Se subieron las pruebas realizadas en MV y las capturas de pantalla como evidencia.
-- En bin : Se subio la explicacion paso a paso de como compilar y ejecutar el cliente y servidor.
-- En README.md: se actualizo y se agregaron las instrucciones de compilacion.
+***En src***
+- Cliente.cpp  commit: b7c2162031eb064a4a7607e4c699920cb609c24d  encargado: Ashley Rios
+- Conexion.cpp  commit: 0c5595e9ed0af36ddf7ad637bc59868896b01e27  encargado: Ashley Rios
+- Conexion.h  commit: c0a34733c990a8207ec59818d89643fcfea09079  encargado: Ashley Rios
+- Manejo-Errores.cpp  commit:a56f191e79ccd6f80a8c3a222b95bbe79cc3ab94  encargado: Valeria Navarro
+- Manejo-Errores.h  commit: 32f3e80745ad54497c0e050bafe156b02df1dd71  encargado: Valeria Navarro
+- Makefile  commit:d5338e607951129033029a4e4b8da00ad79aca58  encargado: Valeria Navarro
+- Servidor-Prueba.py  commit: 340d7a6a88654a41da9be4126ef7886ebf361532  encargado: Diego Aguayo
+  
+***En test y evidence***
+- test.md commit:22716926918c719baff815a53bec7bf694c8e221 encargado: Luis Rodriguez
+- evidence.md  commit:d2d49c6b128b463d0513e0ef6ebc324c4c3ba157  encargado: Luis Rodriguez
+
+***En bin***
+- Compilacion-Instruccines.md  commit:83e61deb04e9c94d46a98ea4732d4739125130f4  encargado: Luis Rodriguez
+
+***README.md***
+-README.md  commit: cc529ee213a96994227951e28d214bf1bd8b692c  encargado: Diego Aguayo 
 
 ***Por cuestiones de tiempo se subieron los archivos desde una sola cuenta, pero todos los integrantes participaron*** 
