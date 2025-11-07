@@ -17,8 +17,14 @@ git clone [https://github.com/Equipo-PAC/PIA_PAC_Cliente-de-red]
 cd PIA_PAC_Cliente-de-red
 
 ```
+
 ### Integrantes
 - Diego Aguayo Frías
 - Valeria Abigail Navarro Casarez
 - Ashley Karina Rios Rodríguez
 - Luis Cipriano Rodríguez Gonzalez
+
+
+## Compilación del cliente y ejecución del servidor
+
+
