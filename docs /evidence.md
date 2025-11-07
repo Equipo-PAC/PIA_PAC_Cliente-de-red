@@ -1,4 +1,4 @@
-# Evidencias de las pruebas hechas con el Cliente-Servidor de red minimo
+# Evidencias de las pruebas hechas con el Cliente-Servidor de red minimo 
 ---
 ***Las capturas de pantalla que se mostraran a continuacion han sido censuradas, esto para proteger la privacidad y no mostrar datos sensibles***
 
