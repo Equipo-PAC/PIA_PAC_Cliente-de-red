@@ -1,6 +1,6 @@
 # Pruebas Cliente-Servidor de red minimo
 ---
-## Entorno de prueba
+## Entorno de prueba 
 
 ## Maquinas Virtuales
 *Se utilizaron 4 maquinas virtuales con los siguientes sistemas operativos*:
