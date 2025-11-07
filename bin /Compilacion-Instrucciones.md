@@ -1,6 +1,6 @@
 # Instrucciones de compilación 
 ---
-## Compilar Cliente 
+## Compilar Cliente  
 ---
 ### Requisitos 
 
