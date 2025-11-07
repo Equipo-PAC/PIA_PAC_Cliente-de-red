@@ -7,7 +7,7 @@
 - **Sistema operativo**: Linux (Se realizaron las pruebas en Lubuntu y Debian donde funciono) 
 - **Compilador**: g++ (versión 7 o superior)
 - **Estándar C++**: C++11 o superior
-
+ 
 
 ### Instalación de Dependencias
 
