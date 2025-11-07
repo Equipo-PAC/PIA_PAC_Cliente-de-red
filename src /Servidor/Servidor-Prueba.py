@@ -1,6 +1,6 @@
 import socket
 import sys
-
+ 
 def validar_ip(ip): #Validamos la ip 
     try:
         partes = ip.split('.') #se divide la ip hasta donde encuentre un punto
@@ -95,4 +95,5 @@ def main():
                     print(f" Error: {e}")
                     
 if __name__ == "__main__":
+
     main()
