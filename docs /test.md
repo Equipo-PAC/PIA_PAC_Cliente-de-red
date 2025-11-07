@@ -3,7 +3,7 @@
 ## Entorno de prueba
 
 ## Maquinas Virtuales
-*Se utilizaron 3 maquinas virtuales con los siguientes sistemas operativos*:
+*Se utilizaron 4 maquinas virtuales con los siguientes sistemas operativos*:
 
 
 ### - ***Lubuntu (Ubuntu)***:
@@ -15,7 +15,7 @@ Al hacer las pruebas no hubo ningun fallo al conectarse con el servidor de windo
 #### Comandos utilizados para la compilacion cliente
 - Primero se entro a la ruta donde estaba el cliente:
 ```bash
-cd /home/user/Downloads/PIA/PIA-T6
+cd /home/Jarvis/Desktop/PIA
 ```
 - Luego se compilo el makefile
 ```bash
@@ -25,7 +25,7 @@ make run
 - Por ultimo ya compilado el cliente se pidieron los parametros de ip y puerto:
 ```bash
 ☆*: .｡. Cliente de red minimo PIA .｡.:*☆
-Ingresa la IP del servidor: 192.168.0.233
+Ingresa la IP del servidor: 192.168.0.25
 Ingresa el puerto (si presiona enter sin haber ingresado un puerto, el puerto por defecto sera el 8080): 8080
 ```
 ##### Evidencia (Captura de pantalla de la compilacion)
@@ -41,7 +41,7 @@ En cambio al hacer pruebas como servidor existieron algunos errores en la conexi
 #### Comandos utilizados para la compilacion cliente
 - Primero se entro a la ruta donde estaba el cliente:
 ```bash
-cd /home/jarvis2/Downloads/PIA/PIA-T6
+cd /home/Jarvis/Desktop/PIA
 ```
 - Luego se compilo el makefile
 ```bash
@@ -51,7 +51,7 @@ make run
 - Por ultimo ya compilado el cliente se pidieron los parametros de ip y puerto:
 ```bash
 ☆*: .｡. Cliente de red minimo PIA .｡.:*☆
-Ingresa la IP del servidor: 192.168.0.92
+Ingresa la IP del servidor: 192.168.0.25
 Ingresa el puerto (si presiona enter sin haber ingresado un puerto, el puerto por defecto sera el 8080): 8080
 ```
 **Version de python**: Python 3.6
@@ -59,7 +59,7 @@ Ingresa el puerto (si presiona enter sin haber ingresado un puerto, el puerto po
 #### Comandos utilizados para ejecutar el servidor
 - Primero se entro a la ruta donde estaba el archivo servidor-Prueba.py 
 ```bash
-cd /home/jarvis2/Downloads/PIA/PIA-T6
+cd /home/Jarvis/Desktop/PIA
 ```
 - Luego se ejecuto el archivo.
 ```bash
@@ -67,7 +67,7 @@ Python3 Servidor-Prueba.py
 ```
 - Por ultimo al ejecutarse el archivo pidio la ip y el puerto por donde se recibiria la peticion
 ```bash
-Ingresa la IP del servidor (por ejemplo: 192.168.1.100) Si  presiona 'enter' aceptara cualquier ip: 10.0.2.15
+Ingresa la IP del servidor (por ejemplo: 192.168.1.100) Si  presiona 'enter' aceptara cualquier ip: 192.168.0.25
 Ingresa el puerto (debe estar entre 1024-65535), si presiona enter el puerto por defecto sera el 8080 : 1025
 ```
 
@@ -85,16 +85,16 @@ Al hacer pruebas como servidor no hubo fallo alguno al hacer conexion con las ot
 - Luego se ejecuto el archivo.
 - Por ultimo al ejecutarse el archivo pidio la ip y el puerto por donde se recibiria la peticion (en este caso se uso la ip: 192.168.0.233 y el puerto 8080 )
 ```bash
-cd C:\Jarvis\Escritorio\PAC-PIA\PIA-T6
+cd C:\Jarvis\Escritorio\PIA
 Python3 Servidor-Prueba.py
-Ingresa la IP del servidor (por ejemplo: 192.168.1.100) Si  presiona 'enter' aceptara cualquier ip: 192.168.0.233
+Ingresa la IP del servidor (por ejemplo: 192.168.1.100) Si  presiona 'enter' aceptara cualquier ip: 192.168.0.25
 Ingresa el puerto (debe estar entre 1024-65535), si presiona enter el puerto por defecto sera el 8080 : 8080
 ```
 
 
 
 ### - ***Windows11***:
-Este fue el pc host, *no una maquina virtual*, pero tambien se utilizo para probar el servidor.
+Se utilizo para probar el servidor.
 Como paso con windows 10 no hubo ningun fallo de conexion con las MV solo errores de dedo al ingresar la ip o puerto.
 
 **Version de python**: Python 3.6 
@@ -102,12 +102,15 @@ Como paso con windows 10 no hubo ningun fallo de conexion con las MV solo errore
 #### Comandos utilizados para ejecutar el servidor
 - Primero se entro a la ruta donde estaba el archivo servidor-Prueba.py (por seguridad solo se pondra parte de la ruta )
 - Luego se ejecuto el archivo.
-- Por ultimo al ejecutarse el archivo pidio la ip y el puerto por donde se recibiria la peticion (en este caso se uso la ip: 192.168.0.92 y el puerto 1024 como ejemplo)
+- Por ultimo al ejecutarse el archivo pidio la ip y el puerto por donde se recibiria la peticion 
 ```PS
-cd C:\Users\Escritorio\PAC-PIA\PIA-T6-v2
+cd C:\Users\Escritorio\PAC
 Python3 Servidor-Prueba.py
 Ingresa la IP del servidor (por ejemplo: 192.168.1.100) Si  presiona 'enter' aceptara cualquier ip: 192.168.0.92
 Ingresa el puerto (debe estar entre 1024-65535), si presiona enter el puerto por defecto sera el 8080 : 1024
 ```
 ##### Evidencia (Captura de pantalla de la ejecucion)
 
+
+
+##### SE USARON IP'S FICTICIAS EN ESTOS EJEMPLOS, TAMBIEN SE CAMBIARON DATOS DE LAS RUTAS PARA HACERLO ANONIMO
