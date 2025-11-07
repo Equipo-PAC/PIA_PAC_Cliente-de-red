@@ -114,3 +114,12 @@ En evidence.md en el apartado *Ejecucion del servidor en MV Windows 11* esta la 
 
 
 ##### SE USARON IP'S FICTICIAS EN ESTOS EJEMPLOS, TAMBIEN SE CAMBIARON DATOS DE LAS RUTAS PARA HACERLO ANONIMO
+
+
+### Integrantes y modulos de los que se encargaron
+- *Diego Aguayo* : Creacion del servidor.
+- *Ashley Rios* : Creacion del cliente (cliente y conexion).
+- *Valeria Navarro* : Creacion del manejo de errores y Makefile.
+- *Luis Rodriguez* : Pruebas y documentacion de estas.
+
+***Debido a cuestiones de tiempo se subieron todos los archivos al repositorio desde una sola cuenta***
