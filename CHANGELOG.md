@@ -32,6 +32,6 @@
 - Compilacion-Instruccines.md  commit:83e61deb04e9c94d46a98ea4732d4739125130f4  encargado: Luis Rodriguez
 
 ***README.md***
--README.md  commit: cc529ee213a96994227951e28d214bf1bd8b692c  encargado: Diego Aguayo 
+-README.md  commit: 238338ac6a302b87ac1acf41bee0289e56b88fec encargado: Diego Aguayo 
 
 ***Por cuestiones de tiempo se subieron los archivos desde una sola cuenta, pero todos los integrantes participaron*** 
