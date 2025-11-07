@@ -1,4 +1,4 @@
-# PIA - Cliente y Servidor de Red Minimo  
+# PIA - Cliente y Servidor de Red Minimo   
 ---
 ## Integrantes
 - Diego Aguayo Frías
