@@ -27,7 +27,7 @@ cd src/
 make 
 ```
 
-### Compilar sin el makefile
+### Compilar sin el makefile por completo
 
 - Dirigete a la carpeta src/
 ```bash
@@ -36,6 +36,9 @@ cd src/
 - Despues debes de compilar todos los archivos:
 ```bsh
 g++ -std=c++11 -g -o cliente Cliente.cpp Conexion.cpp Manejo-Errores.cpp
+make cliente
+make
+./cliente
 ```
 
 ## Ejecutar Servidor
