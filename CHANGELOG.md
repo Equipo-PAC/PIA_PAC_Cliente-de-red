@@ -35,3 +35,30 @@
 -README.md  commit: 238338ac6a302b87ac1acf41bee0289e56b88fec encargado: Diego Aguayo 
 
 ***Por cuestiones de tiempo se subieron los archivos desde una sola cuenta, pero todos los integrantes participaron*** 
+
+## [Avance] - [14/11/2025]
+
+### Tercer avance del PIA - Tarea 7 - [Diego Aguayo, Valeria Navarro, Ashley Rios, Luis Rodriguez]
+
+**Cambion realizados:**
+***En src***
+-   commit:   encargado: Ashley Rios
+-   commit:   encargado: Ashley Rios
+-   commit:   encargado: Ashley Rios
+-   commit: encargado: Valeria Navarro
+-   commit:  encargado: Valeria Navarro
+-   commit:  encargado: Valeria Navarro
+-   commit:  encargado: Diego Aguayo
+  
+***En test y evidence***
+- test.md commit:  encargado: Luis Rodriguez
+- evidence  commit:  encargado: Luis Rodriguez
+
+***En bin***
+-   commit:83e61deb04e9c94d46a98ea4732d4739125130f4  encargado: Luis Rodriguez
+
+***README.md***
+-README.md  commit: 238338ac6a302b87ac1acf41bee0289e56b88fec encargado: Diego Aguayo 
+
+
+
