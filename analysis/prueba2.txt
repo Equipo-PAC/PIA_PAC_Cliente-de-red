@@ -1,1 +1,0 @@
-Aqui en esta carpeta se van a agregar sub carpetas por cada herramienta de analisis dinamico y estatico utilizado en el PIA
