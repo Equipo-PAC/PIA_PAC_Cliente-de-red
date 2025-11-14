@@ -36,7 +36,7 @@ Desarrollo de un cliente y servidor de red mínimo en C++ que se comuniquen medi
 ### Semana 3: Pruebas Finales
 - Pruebas de comunicación en localhost
 - Documentación de compilación y ejecución
-- Pruebas exhaustivas en MV aisladas
+- Pruebas en MV aisladas
 - Preparación de entregables finales
 
 ## Distribución de Tareas
@@ -45,22 +45,19 @@ Desarrollo de un cliente y servidor de red mínimo en C++ que se comuniquen medi
 - **Cliente.cpp/.h**: Main del cliente y parámetros
 - **Conexion-cli.cpp/.h**: Sockets TCP
 - **Manejo-de-errores.cpp/.h**: Gestión de errores
-- **Peticion-Respuesta.cpp/.h**: HTTP GET y respuestas
 
 ### Diego Aguayo: Servidor 
 - **Servidor.py**: Servidor minimo en python
-- **Pruebas**: Ejecución y ayuda con la documentación
+- **Pruebas**: Pruebas del servidor
 
 ### Valeria Navarro: Compilación
 - **Makefile**: Sistema de compilación
 - **Estructura**: Organización /src, /bin, /docs
 - **Versiones**: Debug con símbolos y release
-- **Configuración**: Parámetros y ajustes
 
 ### Luis Rodriguez: Documentación
-- **Utils/Logs.cpp/.h**: Registro de actividades
 - **Documentación**: Códigos y procedimientos
-- **Archivos comunes**: Utilidades compartidas
+- **Pruebas**: Prubas con cliente servidor
 
 ## Medidas Éticas y de Seguridad
 
