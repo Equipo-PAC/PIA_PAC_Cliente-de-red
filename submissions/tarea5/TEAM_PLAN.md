@@ -78,4 +78,4 @@ Desarrollo de un cliente y servidor de red mínimo en C++ que se comuniquen medi
 **Hash del commit**: 5b1f9424a0a6dd18f68cb34d0a461283f362c5c1
 **Tag**: tarea5-inicio  
 **Mensaje**: "Tarea5: inicio PIA — Diego Aguayo, Valeria Navarro, Ashley Rios, Luis Rodriguez" 
-
+**Hash del commit modificacion**: e7800a65209d8d8300fa811d64b383164a735ad5
