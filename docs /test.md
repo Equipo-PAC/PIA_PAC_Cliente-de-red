@@ -30,7 +30,7 @@ Ingresa la IP del servidor: 192.168.0.25
 Ingresa el puerto (si presiona enter sin haber ingresado un puerto, el puerto por defecto sera el 8080): 8080
 ```
 ##### Evidencia (Captura de pantalla de la compilacion)
-En evidence.md en el apartado *Compilacion de cliente en MV Lubuntu* esta la captura con la evidencia de la compilacion.
+<img width="1162" height="658" alt="image" src="https://github.com/user-attachments/assets/05e72cbf-552a-403b-8279-451f36f64e54" />
 
 
 **Version de python**: Python 3.6
@@ -131,6 +131,7 @@ Ingresa el puerto (debe estar entre 1024-65535), si presiona enter el puerto por
 ```
 ##### Evidencia (Captura de pantalla de la ejecucion)
 En evidence.md en el apartado *Ejecucion del servidor en MV Windows 11* esta la captura con la evidencia de la ejecucion.
+<img width="921" height="239" alt="image" src="https://github.com/user-attachments/assets/231d1bcf-7c37-4d87-b803-165b5629f153" />
 
 
 ##### SE USARON IP'S FICTICIAS EN ESTOS EJEMPLOS, TAMBIEN SE CAMBIARON DATOS DE LAS RUTAS PARA HACERLO ANONIMO
@@ -143,3 +144,71 @@ En evidence.md en el apartado *Ejecucion del servidor en MV Windows 11* esta la 
 - *Luis Rodriguez* : Pruebas y documentacion de estas.
 
 ***Debido a cuestiones de tiempo se subieron todos los archivos al repositorio desde una sola cuenta***
+
+
+
+---
+# Pruebas Cliente-Servidor de red minimo [Avance 3 entregable]
+---
+
+## Entorno de prueba 
+En esta ocasion solo se probo en una  MV Linux:Lubuntu (en un entorno controlado y cerrado con red NAT).
+
+## Maquinas Virtuales
+*Se utilizo una maquina virtual Linux/Lubuntu para las pruebas con los binarios y makefile actualizado*:
+
+
+### - ***Linux: Lubuntu (Ubuntu)***:
+
+**Red utilizada**: NAT 
+**IP's utilizadas**: 127.0.0.1 (loopback) 
+**IP's utilizadas**: enp0s3 (ip sera anonima por tema de seguridad)
+**Prubas realizadas**: Binarios y Makefile
+
+**Configuraciones necesarias para la compilacion del cliente**
+**Version de g++**: g++ 13.3.0
+
+#### Comandos utilizados para la compilacion cliente
+- Primero se entro a la ruta donde estaba el cliente:
+```bash
+cd /home/Desktop/PIA
+```
+- Luego se compilo el makefile (se uso el test-both para probar ambos binarios)
+```bash
+make
+make test-both
+```
+- Por ultimo ya compilado el cliente se pidieron los parametros de ip y puerto:
+```bash
+☆*: .｡. Cliente de red minimo PIA .｡.:*☆
+Ingresa la IP del servidor: 127.0.0.1
+Ingresa el puerto (si presiona enter sin haber ingresado un puerto, el puerto por defecto sera el 8080): 8080
+```
+***ESTE PASO SE REPETIRA DOS VECES DEBIDO A QUE SE PROBARON AMBOS BINARIOS CON EL MAKEFILE, POR ENDE SE TIENE QUE EJECUTAR DOS VECES EL SERVIDOR (el servidor se ejecuta antes que el cliente siempre ), SE PUEDEN PONER LOS MISMOS DATOS O DISTINTO (MISMA IP LOOPBACK O EN UNA PRUEBA LA IP LOOPBACK YENOTRA LA ENP0S3 O LA  QUE TENAGA TU MV, LO MISMO CON LOS PUERTOS, PUEDEN SER LOS MISMOS PARA LAS DOS PRUEBAS O SE PUEDEN PROBAR DISTINTOS)***
+
+##### Evidencia (Captura de pantalla de la compilacion)
+En evidence/capturas  esta la captura con la evidencia de la compilacion.
+![Compilación](../evidence/capturas/evidence_14112025_Compilacion_MakeTestBoth.jpg)
+
+**Configuraciones necesarias para la ejecucion del servidor**
+**Version de python**: Python 3.6
+
+#### Comandos utilizados para ejecutar el servidor
+- Primero se entro a la ruta donde estaba el archivo servidor.py 
+```bash
+cd /home/Desktop/PIA
+```
+- Luego se ejecuto el archivo.
+```bash
+Python3 Servidor.py
+```
+- Por ultimo al ejecutarse el archivo pidio la ip y el puerto por donde se recibiria la peticion
+```bash
+Ingresa la IP del servidor (por ejemplo: 192.168.1.100) Si  presiona 'enter' aceptara cualquier ip: 127.0.0.1
+Ingresa el puerto (debe estar entre 1024-65535), si presiona enter el puerto por defecto sera el 8080 : 8080
+```
+En evidence/capturas  esta la captura con la evidencia de la compilacion.
+
+
+##### SE USARON IP'S FICTICIAS EN ESTOS EJEMPLOS, TAMBIEN SE CAMBIARON DATOS DE LAS RUTAS PARA HACERLO ANONIMO
+
