@@ -1,0 +1,19 @@
+ ☆*: .｡. Cliente de red minimo PIA .｡.:*☆
+Ingresa la IP del servidor:  Ingresa el puerto (si presiona enter sin haber ingresado un puerto, el puerto por defecto sera el 8080): Exito La configuracion fue validada correctamente
+ Conectando a: 127.0.0.1:8080
+Conectando a 127.0.0.1:8080...
+Conectado con el servidor 
+Enviando petición GET /status 
+Esperando a que le servidor responda 
+☆*: .｡. Respuesta del servidor.｡.:*☆☆*:
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Connection: close
+
+☆*: .｡ Conexión exitosa .｡.:*☆
+Cliente: 127.0.0.1:54604
+Servidor: 127.0.0.1:8080
+Proyecto: PIA Cliente de red mínimo
+Estado: *☆Funcionando*☆
+
+Sesion finalizada 
