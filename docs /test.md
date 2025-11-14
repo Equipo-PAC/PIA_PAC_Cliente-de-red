@@ -32,6 +32,26 @@ Ingresa el puerto (si presiona enter sin haber ingresado un puerto, el puerto po
 ##### Evidencia (Captura de pantalla de la compilacion)
 En evidence.md en el apartado *Compilacion de cliente en MV Lubuntu* esta la captura con la evidencia de la compilacion.
 
+
+**Version de python**: Python 3.6
+
+#### Comandos utilizados para ejecutar el servidor
+- Primero se entro a la ruta donde estaba el archivo servidor-Prueba.py 
+```bash
+cd /home/Jarvis/Desktop/PIA
+```
+- Luego se ejecuto el archivo.
+```bash
+Python3 Servidor-Prueba.py
+```
+- Por ultimo al ejecutarse el archivo pidio la ip y el puerto por donde se recibiria la peticion
+```bash
+Ingresa la IP del servidor (por ejemplo: 192.168.1.100) Si  presiona 'enter' aceptara cualquier ip: 192.168.0.25
+Ingresa el puerto (debe estar entre 1024-65535), si presiona enter el puerto por defecto sera el 8080 : 1025
+```
+
+
+
 ### - ***Debian***:
 Se utilizo para hacer pruebas con el cliente y el servidor.
 Al hacer las pruebas como cliente no hubo fallos, logro conectar con el servidor (windows 10/11) y recibir una respuesta (el estatus del servidor). 
@@ -71,7 +91,6 @@ Python3 Servidor-Prueba.py
 Ingresa la IP del servidor (por ejemplo: 192.168.1.100) Si  presiona 'enter' aceptara cualquier ip: 192.168.0.25
 Ingresa el puerto (debe estar entre 1024-65535), si presiona enter el puerto por defecto sera el 8080 : 1025
 ```
-
 
 
 
