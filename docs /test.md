@@ -7,8 +7,9 @@
 
 
 ### - ***Lubuntu (Ubuntu)***:
-Se utilizo para hacer pruebas con el cliente.
-Al hacer las pruebas no hubo ningun fallo al conectarse con el servidor de windows10/11, todo funciono a la perfeccion, el cliente pudo conectarse al servidor,mandar una peticion y recibir una respuesta (el estatus del servidor). Pero al hacer pruebas con el servidor de Debian las primeras dos veces fallo la conexion, esto se debio a que la red de la maquina virtual estaba como *only host* al probarla como NAT funciono.
+Se utilizo para hacer pruebas con el cliente y el servidor.
+Se hicieron pruebas siendo cliente y conectandose a un servidor que esta en otra MV y tambien se hicieron pruebas siendo el servidor (cumpliendo la misma situacion anterior y siendo cliente-servidor al mismo tiempo con la ip loopback 127.0.0.1).
+Al hacer las pruebas no hubo ningun fallo al conectarse con el servidor de windows10/11, todo funciono a la perfeccion, el cliente pudo conectarse al servidor,mandar una peticion y recibir una respuesta (el estatus del servidor). Pero al hacer pruebas con el servidor de Debian las primeras dos veces fallo la conexion, esto se debio a que la red de la maquina virtual estaba como *only host* al probarla como NAT funciono. Tambien al probarse como servidor y cliente en la misma MV con la ip loopback, funciono sin ningun detalle de por medio.
 
 **Version de g++**: g++ 13.3.0
 
