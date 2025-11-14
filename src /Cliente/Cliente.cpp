@@ -24,7 +24,7 @@ int main() {
     // Obtener puerto
     int puerto;
     while (true) { //pedimos y validamos el puerto por el que pasara la infromacion
-        string puerto_str = Validador::pedirEntrada(" Ingresa el puerto (si presiona enter sin haber ingresado un puerto, el puerto por defecto sera el 8080): ");
+        string puerto_str = Validador::pedirEntrada(" Ingresa el puerto que debe estar entre 1024-65535(si presiona enter sin haber ingresado un puerto, el puerto por defecto sera el 8080): ");
     
         if (puerto_str.empty()) { //si se presiona enter y no se escribe nada el puerto por defecto sera el 8080
             puerto = 8080;
@@ -67,5 +67,6 @@ int main() {
     cout << "Sesion finalizada " << endl; 
     return 0;
 }
+
 
 
