@@ -14,7 +14,7 @@
 
 ### Segundo avance del PIA - Tarea 6 - [Diego Aguayo, Valeria Navarro, Ashley Rios, Luis Rodriguez]
 
-**Cambion realizados:**
+**Cambios realizados:**
 ***En src***
 - Cliente.cpp  commit: b7c2162031eb064a4a7607e4c699920cb609c24d  encargado: Ashley Rios
 - Conexion.cpp  commit: 0c5595e9ed0af36ddf7ad637bc59868896b01e27  encargado: Ashley Rios
@@ -40,25 +40,31 @@
 
 ### Tercer avance del PIA - Tarea 7 - [Diego Aguayo, Valeria Navarro, Ashley Rios, Luis Rodriguez]
 
-**Cambion realizados:**
-***En src***
--   commit:   encargado: Ashley Rios
--   commit:   encargado: Ashley Rios
--   commit:   encargado: Ashley Rios
--   commit: encargado: Valeria Navarro
--   commit:  encargado: Valeria Navarro
--   commit:  encargado: Valeria Navarro
--   commit:  encargado: Diego Aguayo
+**Cambios realizados:**
+***En docs***
+- Creacion de report_draft.md commit:   encargado: Diego Aguayo
   
-***En test y evidence***
+***En test***
 - test.md commit:  encargado: Luis Rodriguez
-- evidence  commit:  encargado: Luis Rodriguez
 
 ***En bin***
--   commit:83e61deb04e9c94d46a98ea4732d4739125130f4  encargado: Luis Rodriguez
+- Creacion de binario con simbolos  commit: encargado: Valeria Navarro
+- Creacion de binario sin simbolos  commit:  encargado: Valeria Navarro
+- Actualizacion de Makefila  commit:  encargado: Valeria Navarro
 
+***En anallysis**
+- Analisis estatico commit: encargado: Ashley Rios
+- Analisis dinamico commit: encargado: Ashley Rios
+
+***En evidence***
+- Capturas del analisis estatico commit:  encargado: Ashley Rios
+- Capturas del analisis dinamico commit:  encargdo: Ashley Rios
+- Capturas de las pruebas de compilacion de binarios  commit: encargado: Luis Rodriguez
+- Video de la demostracion de compilacion de binarios  commit: encargado: Luis Rodriguez
+  
 ***README.md***
--README.md  commit: 238338ac6a302b87ac1acf41bee0289e56b88fec encargado: Diego Aguayo 
+-README.md  commit:  encargado: Diego Aguayo 
+
 
 
 
