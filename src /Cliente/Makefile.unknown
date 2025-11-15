@@ -1,0 +1,33 @@
+# Configuracion del compilador
+CXX = g++  #version del compilador 
+CXXFLAGS_DEBUG = -std=c++11 -g -Wall  #acepta c11 (este se usa para compilar la version normal de los binarios)
+CXXFLAGS_OPT = -std=c++11 -O2 -Wall   # se usa para compilar la version optimizada de los binarios
+SOURCES = Cliente.cpp Conexion.cpp Manejo-Errores.cpp  #los archivos a compilar
+
+all: debug optimized 
+
+debug: #Compila la version del binario con simbolos y crea el binario sin optimizar bin/cliente
+	$(CXX) $(CXXFLAGS_DEBUG) -o bin/cliente $(SOURCES)
+
+optimized:	#Compila la version del binario optimizado y crea el binario optimizado bin/cliente_optimizado
+	$(CXX) $(CXXFLAGS_OPT) -o bin/cliente_optimizado $(SOURCES)
+
+clean: #elimina los binarios 
+	rm -f bin/cliente bin/cliente_optimizado
+
+test: debug #Prueba los binarios 
+	./bin/cliente
+
+test-opt: optimized #Prueba los binarios optimizados
+	./bin/cliente_optimizado
+
+test-both: test test-opt #Prueba los dos binarios 
+
+perms: # da permisos de ejecucion (hay veces que es necesario, por eso lo agregamos)
+	chmod +x bin/cliente bin/cliente_optimizado
+
+full: perms all test-both  # Compila y prueba todo
+
+.PHONY: all debug optimized clean test test-opt test-both perms full
+
+.PHONY: all debug optimized clean test
