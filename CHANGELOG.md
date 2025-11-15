@@ -42,29 +42,25 @@
 
 **Cambios realizados:**
 ***En docs***
-- Creacion de report_draft.md commit:   encargado: Diego Aguayo
+- Creacion de report_draft.md commit: 35ad026399411b6e6d02a477b3157f4a8fef7c57  encargado: Diego Aguayo
   
 ***En test***
-- test.md commit:  encargado: Luis Rodriguez
+- test.md commit: cb5b09a3026be5ff7f5529d4ac427149c7dd3891 encargado: Luis Rodriguez
 
 ***En bin***
-- Creacion de binario con simbolos  commit: encargado: Valeria Navarro
-- Creacion de binario sin simbolos  commit:  encargado: Valeria Navarro
-- Actualizacion de Makefila  commit:  encargado: Valeria Navarro
+- Creacion de binario con simbolos  commit: 29459cafdcafbf53139cf8ce9b96f7629e06d9c2 encargado: Valeria Navarro
+- Creacion de binario sin simbolos  commit: 0b65ea549ceda726cf28c4bad318e2f471448c5e  encargado: Valeria Navarro
+- Actualizacion de Makefila  commit: 29459cafdcafbf53139cf8ce9b96f7629e06d9c2 encargado: Valeria Navarro
 
 ***En anallysis**
-- Analisis estatico commit: encargado: Ashley Rios
-- Analisis dinamico commit: encargado: Ashley Rios
+- Analisis estatico commit: 7aeb31f76a22795fbae31656cf68e7f69ede240a encargado: Ashley Rios
+- Analisis dinamico commit: 104abbd5369e51ae96a2128649702db7b1469b26 encargado: Ashley Rios
 
 ***En evidence***
-- Capturas del analisis estatico commit:  encargado: Ashley Rios
-- Capturas del analisis dinamico commit:  encargdo: Ashley Rios
-- Capturas de las pruebas de compilacion de binarios  commit: encargado: Luis Rodriguez
-- Video de la demostracion de compilacion de binarios  commit: encargado: Luis Rodriguez
+- Capturas del analisis estatico commit: 4c10909659afbfadb18843f1c03a6f7fa993ecce encargado: Ashley Rios
+- Capturas del analisis dinamico commit: 227facc56bd46b7f4f2ac2327571ad4271f60f5d  encargdo: Ashley Rios
+- Capturas de las pruebas de compilacion de binarios  commit: f25c145230432e467d7fd1137f64aa2e1adf6b5a encargado: Luis Rodriguez
+- Video de la demostracion de compilacion de binarios  commit: 5067e4bb0100119b7e277c3b3019e5ae46504ca2 encargado: Luis Rodriguez
   
 ***README.md***
--README.md  commit:  encargado: Diego Aguayo 
-
-
-
-
+-README.md  commit: cfc191491946c3325f999888ba80f2ee24f764a8 encargado: Diego Aguayo 
