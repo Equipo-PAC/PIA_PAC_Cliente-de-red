@@ -3,8 +3,8 @@
 
 **Fecha:** [14/11/2025]  
 **Equipo:** Diego Aguayo, Valeria Navarro, Ashley Rios, Luis Rodriguez  
-**Commit:** 7a04f774dc57bc3a00aec74c17bcc4fd47705681  
-**Tag:** `tag del 3 avance`
+**Commit:** `7a04f774dc57bc3a00aec74c17bcc4fd47705681`  
+**Tag:** `tarea7-Avance`
 
 ---
 
