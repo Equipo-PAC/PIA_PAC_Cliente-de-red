@@ -42,8 +42,8 @@ sudo apt update
 sudo apt install g++
 sudo apt install g++ make
 ```
-#### Compilar con Makefile
-- Tienes que dirigirte a la carpeta donde hayas descargado el Cliente (para este ejemplo y los siguientes usaremos la carpeta de este repositorio src/):
+#### Compilar con Makefile dependiendo la version del binario que se quiera:
+- Para todos los casos tienes que dirigirte a la carpeta donde hayas descargado el Cliente (para este ejemplo y los siguientes usaremos la carpeta de este repositorio src/) y crear los binarios con make:
 ```bash
 cd src/
 ```
@@ -51,18 +51,61 @@ cd src/
 ```
 make 
 ```
+#### Opciones de compilado de binarios 
 
-#### Compilar sin el makefile
+- Crear binario con simbolos
+```bash 
+make debug
+```
+- Crear binario optimizado
+```bash 
+make optimized
+```
+- Eliminar binario con simbolos y  optimizado
+```bash 
+make clean
+```
+- Crea el binario con simbolos y compila el cliente
+```bash 
+make test
+```
+- Crea el binario optimizado y compila el cliente
+```bash 
+make test-opt
+```
+- Crea el binario con simbolos y el optimizado y compila el cliente (dos veces, una por cada binario)
+```bash 
+make test-both
+```
+- Da permisos de ejecucion (en algunos sitemas es necesario)
+```bash 
+make perms
+```
+- Da permisos, crea los binarios y los compila
+```bash 
+make full
+```
+#### Compilar sin el makefile por completo
 
 - Dirigete a la carpeta src/
 ```bash
 cd src/
 ```
-- Despues debes de compilar todos los archivos:
+##### Despues debes de compilar todos los archivos (binario con simbolos):
 ```bsh
-g++ -std=c++11 -g -o cliente Cliente.cpp Conexion.cpp Manejo-Errores.cpp
+g++ -std=c++11 -g -wall -o cliente Cliente.cpp Conexion.cpp Manejo-Errores.cpp
+make
+make ./bin/cliente
+```
+#####  Despues debes de compilar todos los archivos (binario optimizado):
+```bash
+g++ -std=c++11 -O2 -wall-o cliente Cliente.cpp Conexion.cpp Manejo-Errores.cpp
+make 
+make ./bin/cliente_optimizado
 ```
 
+
+---
 ### **Ejecutar Servidor**
 ---
 #### Requisitos 
