@@ -49,7 +49,14 @@ make test-opt
 ```bash 
 make test-both
 ```
-
+#### Da permisos de ejecucion (en algunos sitemas es necesario)
+```bash 
+make perms
+```
+#### Da permisos, crea los binarios y los compila
+```bash 
+make full
+```
 ### Compilar sin el makefile por completo
 
 - Dirigete a la carpeta src/
