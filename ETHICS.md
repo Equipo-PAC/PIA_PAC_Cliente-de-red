@@ -1,35 +1,45 @@
-# ETHICS — PIA
 
-## Integrantes del equipo:
-- Diego Aguayo Frias
+# ETHICS 
+## Declaración Final de Cumplimiento Ético y de Seguridad
+
+### Integrantes del Proyecto
+- Diego Aguayo Frías
 - Valeria Abigail Navarro Casarez
-- Ashley Karina Rios Rodriguez
+- Ashley Karina Rios Rodríguez  
 - Luis Cipriano Rodriguez Gonzalez
 
-### Declaración de Cumplimiento de Medidas de Seguridad
+### Declaración de Cumplimiento
 
-Nosotros, los integrantes del equipo RedMinima, declaramos que:
+Nosotros, los integrantes de este equipo declaramos que:
 
-1. **Entorno Controlado**: El desarrollo y pruebas de este payload se realizarán exclusivamente en máquinas virtuales aisladas y controladas.
+1. **Entorno Controlado**: Todo el desarrollo y pruebas se realizaron exclusivamente en máquinas virtuales aisladas (VirtualBox con red interna/host-only).
 
-2. **No Persistencia**: El código no incluirá mecanismos de persistencia en el sistema, no modificará archivos del sistema operativo y no sobrevivirá a reinicios.
+2. **Medidas de Seguridad Aplicadas**:
+   - Uso de snapshots para restaurar estado limpio despues de cada prueba
+   - Configuración de red host-only/internal-only
+   - No ejecución en sistemas de producción
+   - Restauración de snapshot "Cliente-Servidor Pruebas" después de cada sesión
 
-3. **No Exfiltración**: El payload no recopilará, transmitirá ni exfiltrará datos reales del sistema o del usuario.
+3. **Payload Benigno**:
+   - No incluye capacidades de persistencia en el sistema
+   - No exfiltra datos del usuario o sistema
+   - No ejecuta comandos recibidos por red
+   - No se propaga a otros sistemas
+   - Opera exclusivamente con fines educativos
 
-4. **Propósito Educativo**: Este software tiene únicamente fines educativos y de aprendizaje sobre protocolos de red y programación en C++.
+4. **Transparencia**: Todo el código fuente es accesible, documentado y revisable.
 
-5. **Ejecución Controlada**: Las pruebas de comunicación se limitarán a localhost o redes privadas de laboratorio, sin afectar sistemas externos.
-
-### Confirmación de Payload Benigno
-
-Confirmamos que el payload desarrollado es benigno por diseño:
-- Solo establecera conexiones de red autorizadas explícitamente
-- No ejecutara comandos del sistema recibidos por red
-- No sera auto-replicable
-- No realizara acciones destructivas o maliciosas
+5. **Limitaciones de Alcance**: 
+   - Solo establece conexiones a direcciones explícitamente especificadas
+   - No modifica archivos del sistema operativo
+   - No realiza operaciones privilegiadas
 
 ### Firmas
-- Diego Aguayo
-- Valeria Navarro
-- Ashley Rios
-- Luis Rodriguez
+
+***Diego Aguayo***
+***Valeria Navarro***
+***Ashley Rios***
+***Luis Rodriguez***
+
+**Fecha:** 20/11/2025
+**Commit:** `[HASH_DEL_COMMIT_FINAL]`
