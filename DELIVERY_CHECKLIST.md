@@ -72,9 +72,10 @@ cd proyecto-pia
 make all
 
 # Verificar binarios
-file bin/cliente
-file bin/cliente_optimizado
+file bin/cliente_debug
+file bin/cliente_release
 
 # Ejecutar prueba básica
 ./bin/cliente
+
 
