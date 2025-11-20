@@ -43,6 +43,13 @@ sudo apt install g++
 sudo apt install g++ make
 ```
 #### Compilar con Makefile dependiendo la version del binario que se quiera:
+
+***A LOS BINARIOS SE LES ASIGNÓ UN NOMBRE MÁS INTUITIVO (esto para hacerlo más facil de comprender para elusuario):***
+
+***- BINARIO CON SIMBOLOS (NO STRIP): cliente***
+
+***- BINARIO OPTIMIZADO (SIN SIMBOLOS): cliente_optimizado***
+
 - Para todos los casos tienes que dirigirte a la carpeta donde hayas descargado el Cliente (para este ejemplo y los siguientes usaremos la carpeta de este repositorio src/) y crear los binarios con make:
 ```bash
 cd src/
