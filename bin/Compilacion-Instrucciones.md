@@ -20,6 +20,13 @@ sudo apt install g++
 sudo apt install g++ make
 ```
 ### Compilar con Makefile dpendiendo la version del binario que se quiera:
+
+***A LOS BINARIOS SE LES ASIGNÓ UN NOMBRE MÁS INTUITIVO (esto para hacerlo más facil de comprender para elusuario):***
+
+***- BINARIO CON SIMBOLOS (NO STRIP): cliente_debug   (anteriormente su nombre era "cliente", por lo que dentro de las pruebas de este repositorio encontrara el titulo del archivo binario con ambos nombres)***
+
+***- BINARIO OPTIMIZADO (SIN SIMBOLOS): cliente_release  (anteriormente su nombre era "cliente_optimizado", por lo que dentro de las pruebas de este repositorio encontrara el titulo del archivo binario con ambos nombres)***
+
 - Para todos los casos tienes que dirigirte a la carpeta donde hayas descargado el Cliente (para este ejemplo y los siguientes usaremos la carpeta de este repositorio src/) y crear los binarios con make:
 ```bash
 cd src/
@@ -67,13 +74,13 @@ cd src/
 ```bsh
 g++ -std=c++11 -g -wall -o cliente Cliente.cpp Conexion.cpp Manejo-Errores.cpp
 make
-make ./bin/cliente
+make ./bin/cliente_debug
 ```
 ####  Despues debes de compilar todos los archivos (binario optimizado):
 ```bash
 g++ -std=c++11 -O2 -wall-o cliente Cliente.cpp Conexion.cpp Manejo-Errores.cpp
 make 
-make ./bin/cliente_optimizado
+make ./bin/cliente_release
 ```
 
 ## Ejecutar Servidor
