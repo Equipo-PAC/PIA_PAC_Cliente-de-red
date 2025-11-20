@@ -122,10 +122,10 @@ python3 --version
 #### Ejecutar
 - En la raiz del proyecto puedes hacer lo siguiente:
 ```bash
-python3 src/Servidor-Prueba.py
+python3 src/Servidor.py
 ```
 - Tambien puedes ir hacia donde se encuentra el archivo:
 ```bash
 cd src/
-python3 Servidor-Prueba.py
+python3 Servidor.py
 ```
