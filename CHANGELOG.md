@@ -90,7 +90,7 @@
 - Se creo la lista de los archivos de este PIA commit:db923f36e81da9e61ff9ddab8f820b1dc10104bc encargado: Ashley Rios
 
 ***report_final***
-- Se creo el reporte final con toda la informacion del PIA commit: encargado: Diego Aguayo
+- Se creo el reporte final con toda la informacion del PIA commit:7b322e59a86b2462df6897cc8728179b438462d5 encargado: Diego Aguayo
 
 ***CHANGELOG.MD***
 - Se actualizaron con los ultimos cambios del PIA commit: enacrgado: Ashley Rios
