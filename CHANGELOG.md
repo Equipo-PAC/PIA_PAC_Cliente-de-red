@@ -95,6 +95,3 @@
 ***CHANGELOG.MD***
 - Se actualizaron con los ultimos cambios del PIA commit: enacrgado: Ashley Rios
 
-***README.md***
-- Ultimas actualizaciones del PIA commit: encargado: Diego Aguayo
-
