@@ -64,3 +64,37 @@
   
 ***README.md***
 -README.md  commit: cfc191491946c3325f999888ba80f2ee24f764a8 encargado: Diego Aguayo 
+
+
+
+## [ENTREGA DE PIA] - [20/11/2025]
+
+### Entrega final del PIA - Tarea 8 - [Diego Aguayo, Valeria Navarro, Ashley Rios, Luis Rodriguez]
+
+**Cambios realizados:**
+
+***ETHICS.md***
+- Actualización de las medidas de seguridad commit:1435e6676f347c7f924e415c094cff06ecde07e3 encargado: Luis Rodriguez
+
+
+***bin***
+-Actualizaciones de binarios commit:e66ad10ddcc3518d2404430725cb4da8db9490d3 enacargado: Valeria Navarro
+
+***src***
+- Actualizacion de Makefile commit:9b5463bf16f7fd2915bc1af6fe9053c4d6dc419d encargadq: Vale Navarro
+
+***METADATA.md***
+- Se agrego la informacion de la MV utilizada para las practicas:a186d95e812c26078f96ddce3d921aa534da2bd4 Luis Rodriguez
+
+***DELIVERY_CHECKLIST.md***
+- Se creo la lista de los archivos de este PIA commit:db923f36e81da9e61ff9ddab8f820b1dc10104bc encargado: Ashley Rios
+
+***report_final***
+- Se creo el reporte final con toda la informacion del PIA commit: encargado: Diego Aguayo
+
+***CHANGELOG.MD***
+- Se actualizaron con los ultimos cambios del PIA commit: enacrgado: Ashley Rios
+
+***README.md***
+- Ultimas actualizaciones del PIA commit: encargado: Diego Aguayo
+
