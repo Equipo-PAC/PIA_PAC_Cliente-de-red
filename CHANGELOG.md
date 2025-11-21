@@ -93,5 +93,5 @@
 - Se creo el reporte final con toda la informacion del PIA commit:7b322e59a86b2462df6897cc8728179b438462d5 encargado: Diego Aguayo
 
 ***CHANGELOG.MD***
-- Se actualizaron con los ultimos cambios del PIA commit: enacrgado: Ashley Rios
+- Se actualizaron con los ultimos cambios del PIA commit:ec8c4218033408ab12bdf6cfb39f40f9e130d8c9 enacrgado: Ashley Rios
 
