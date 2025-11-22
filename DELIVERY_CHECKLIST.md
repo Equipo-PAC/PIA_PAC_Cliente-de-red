@@ -13,9 +13,16 @@
 
 - video_Luis_Rodriguez.mp4 — commit: Entrega video final — Luis Rodriguez
  — duración 2:30
+hash: ac97f4146ddcee1e8cb4fdf63de28225d81df05e
+ 
 - video_Rios_Ashley.mp4 — commit: Video Final — duración 2:47
+hash: b308b4905ca50e154ec2856bd8a1dc09e574e4dc
+
 - video_Navarro_Valeria.mp4 - commit: Entrega video final — Navarro Valeria - duración: 2:03
+hash: 165c0b084155e9a95ec56ef17cc4de4b984920b1
+
 - video_Aguayo_Diego.mp4 - commit:Video Final Aguayo Diego - duración: 3:29
+hash:9a54c900f59733688b06617d479d542afc3ea504
 
 ##  ENTREGABLES VERIFICADOS
 
@@ -84,6 +91,7 @@ file bin/cliente_release
 
 # Ejecutar prueba básica
 ./bin/cliente
+
 
 
 
