@@ -53,6 +53,7 @@
 - [ ✔] `/evidence/cpaturas/evidence_14112025_Servidor_???.png` (las ss con este nombre inicial pertenecen a as pruebas con el Servidor)
 - [ ✔] `/evidence/capturas/evidence_14112025_Ghidra_analysis_???.png` (las ss con este nombre inicial pertenecen a las pruebas de binarios con Ghidra)
 - [ ✔] `/evidence/videos/demo_short.mp4`
+- [ ✔] `/evidence/videos/video_Luis_Rodriguez.mp4` — commit ac97f4146ddcee1e8cb4fdf63de28225d81df05e — duración 02:38
 
 ### Cumplimiento Ético y Seguridad
 - [ ✔] Pruebas en VMs aisladas
@@ -77,5 +78,6 @@ file bin/cliente_release
 
 # Ejecutar prueba básica
 ./bin/cliente
+
 
 
