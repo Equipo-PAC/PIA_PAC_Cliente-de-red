@@ -14,6 +14,7 @@
 - video_Luis_Rodriguez.mp4 — commit: Entrega video final — Luis Rodriguez
  — duración 2:30
 - video_Rios_Ashley.mp4 — commit: Video Final — duración 2:47
+- video_Navarro_Valeria.mp4 - commit: video.Navarro_Valeria - duración: 2:30
 
 ##  ENTREGABLES VERIFICADOS
 
@@ -82,6 +83,7 @@ file bin/cliente_release
 
 # Ejecutar prueba básica
 ./bin/cliente
+
 
 
 
