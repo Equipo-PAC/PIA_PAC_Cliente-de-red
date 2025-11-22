@@ -8,8 +8,12 @@
 - Luis Rodriguez  
 
 **Fecha Entrega:** 20/11/2025
-**Commit Final:** `[HASH_DEL_COMMIT]`  
-**Tag Final:** `final-delivery-PIA-[AAAAMMDD]`
+
+## Video de participación final
+
+- video_Luis_Rodriguez.mp4 — commit: Entrega video final — Luis Rodriguez
+ — duración 2:30
+- video_Rios_Ashley.mp4 — commit: Video Final — duración 2:47
 
 ##  ENTREGABLES VERIFICADOS
 
@@ -78,6 +82,7 @@ file bin/cliente_release
 
 # Ejecutar prueba básica
 ./bin/cliente
+
 
 
 
