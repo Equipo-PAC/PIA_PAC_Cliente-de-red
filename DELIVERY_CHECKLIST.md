@@ -15,6 +15,7 @@
  — duración 2:30
 - video_Rios_Ashley.mp4 — commit: Video Final — duración 2:47
 - video_Navarro_Valeria.mp4 - commit: Entrega video final — Navarro Valeria - duración: 2:03
+- video_Aguayo_Diego.mp4 - commit:Video Final Aguayo Diego - duración: 3:29
 
 ##  ENTREGABLES VERIFICADOS
 
@@ -83,6 +84,7 @@ file bin/cliente_release
 
 # Ejecutar prueba básica
 ./bin/cliente
+
 
 
 
